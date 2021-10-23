@@ -39,9 +39,9 @@ public class AppTest
         assertEquals( "User" ,App.testWinnerHand("P", "R"));
     }
 
-    // @Test
-    // public void shouldGetCorrentWinner_Roshambo()
-    // {
-    //     assertEquals( "Roshambo" ,App.testWinnerHand("R", "P"));
-    // }
+    @Test
+    public void shouldGetCorrentWinner_Roshambo()
+    {
+        assertEquals( "Roshambo" ,App.testWinnerHand("R", "P"));
+    }
 }
