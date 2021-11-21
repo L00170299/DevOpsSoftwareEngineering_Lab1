@@ -44,4 +44,10 @@ public class AppTest
     {
         assertEquals( "Roshambo" ,App.testWinnerHand("R", "P"));
     }
+
+    @Test
+    public void shouldBeTrue()
+    {
+        assertTrue( true );
+    }
 }
